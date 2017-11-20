@@ -73,6 +73,7 @@ var vm = new Vue({
 		},
 	},
 	created: function(){
+		var p = {city:1,src:[{"ID":1,"NAME":"Moscow"},{"ID":2,"NAME":"Лондон"},{"ID":3,"NAME":"Miami"},{"ID":4,"NAME":"Delhi"},{"ID":5,"NAME":"Lima"},{"ID":6,"NAME":"Bangkok"}]};
 		this.src.init(p);
 	}
 });
